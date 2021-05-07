@@ -12,8 +12,6 @@ module ExecJS
 
     Duktape = DuktapeRuntime.new
 
-    RubyRacer = RubyRacerRuntime.new
-
     RubyRhino = RubyRhinoRuntime.new
 
     MiniRacer = MiniRacerRuntime.new
