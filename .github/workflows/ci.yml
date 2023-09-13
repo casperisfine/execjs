@@ -24,8 +24,8 @@ jobs:
           ruby-version: ${{ matrix.ruby }}
           # rubygems: ${{ (matrix.ruby_version < '2.6' && '3.2.3') || 'latest' }}
 
-      - name: Install bundler
-        run: gem install bundler -v '2.2.16'
+      # - name: Install bundler
+      #   run: gem install bundler -v '2.2.16'
       - name: Install dependencies
         run: bundle install
 
